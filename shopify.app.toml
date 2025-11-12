@@ -2,7 +2,7 @@
 
 client_id = "2ecdde04826850a6b175536d16202549"
 name = "srv-test-react-router-app"
-application_url = "https://example.com"
+application_url = "https://srv-test-react-router-app.onrender.com"
 embedded = true
 
 [build]
@@ -25,4 +25,4 @@ api_version = "2026-01"
 scopes = "write_products"
 
 [auth]
-redirect_urls = [ "https://example.com/api/auth" ]
+redirect_urls = [ "https://srv-test-react-router-app.onrender.com/api/auth"]
